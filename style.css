@@ -1,0 +1,84 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+body{
+    background-color: #f1f0ff;
+}
+.img-center{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainHeading{
+    text-decoration: underline;
+    font-size: 60px;
+    color: navy;
+}
+.mainArea{
+    box-shadow: var(0 5px 15px rgba(0, 0, 0, 0.1));
+    transition: var(all 0.3s linear);
+    padding: 50px;
+    margin:auto;
+    width: 35rem;
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+}
+.underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: var(hsl(205, 78%, 60%));
+  margin-left: auto;
+  margin-right: auto;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.prev-btn,
+.next-btn {
+    color: violet;
+    font-size: 2.0rem;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 0.5rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+#name{
+    color:violet;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: var("Roboto", sans-serif);
+    font-size: 30px;
+}
+
+#text{
+    font-size: 20px;
+    font-family:sans-serif;
+    margin-bottom: 0.75rem;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
